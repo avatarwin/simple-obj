@@ -1,0 +1,4 @@
+*.so
+*~
+*#
+simple-obj.import.scm

@@ -1,0 +1,8 @@
+;;; -*- scheme -*-
+
+((synopsis "An xlisp+ like object system")
+ (category oop)
+ (doc-from-wiki)
+ (license BSD)
+ (author "Nicola Archibald")
+ (files "simple-obj.scm" "simple-obj.meta"))

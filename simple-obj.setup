@@ -1,0 +1,6 @@
+;; -*- scheme -*-
+
+(compile -s -O3 -d1 "simple-obj.scm" -j simple-obj)
+(compile -s -O3 -d0 "simple-obj.import.scm")
+
+(install-extension 'simple-obj '("simple-obj.so" "simple-obj.import.so") '((version 0.1)))
